@@ -22,7 +22,7 @@ long          intensity = 60000;          //Defines how often a random tone occu
                                           //e.g. If intensity is 60000 (1 min) the next random tone will happenen between current time and two minutes time. 
 long          startDelay  = 10000;        //How long must pass before random tones start. This gives you a chance to hide the device.
 long          shockRepeatDelay = 10000;   //How long between shock/sound triggers.
-unsigned long lastShockTime = 0;    
+unsigned long lastShockTime = 0;          //The last time a shock/loud sound was detected.
 
 void setup() {
    // put your setup code here, to run once:
